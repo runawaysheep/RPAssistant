@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b3b3b">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_gamepad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imageView_gamepad_base2"
+            android:layout_width="249.2dp"
+            android:layout_height="161dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gamepad_base2" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_circle"
+            android:layout_width="16.1dp"
+            android:layout_height="16.1dp"
+            android:layout_marginLeft="211.4dp"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/pressed_circle" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_cross"
+            android:layout_width="16.1dp"
+            android:layout_height="16.1dp"
+            android:layout_marginLeft="193.2dp"
+            android:layout_marginTop="59.5dp"
+            android:src="@drawable/pressed_circle" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_square"
+            android:layout_width="16.1dp"
+            android:layout_height="16.1dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/pressed_circle" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_triangle"
+            android:layout_width="16.1dp"
+            android:layout_height="16.1dp"
+            android:layout_marginLeft="193.2dp"
+            android:layout_marginTop="23.8dp"
+            android:src="@drawable/pressed_circle" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_dleft"
+            android:layout_width="20.3dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="25.9dp"
+            android:layout_marginTop="42.7dp"
+            android:rotation="180"
+            android:src="@drawable/pressed_dir" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_dright"
+            android:layout_width="20.3dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="49.7dp"
+            android:layout_marginTop="42.7dp"
+            android:src="@drawable/pressed_dir" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_ddown"
+            android:layout_width="20.3dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="37.8dp"
+            android:layout_marginTop="53.9dp"
+            android:rotation="90"
+            android:src="@drawable/pressed_dir" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_dup"
+            android:layout_width="20.3dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="37.8dp"
+            android:layout_marginTop="30.8dp"
+            android:rotation="270"
+            android:src="@drawable/pressed_dir" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_l1"
+            android:layout_width="30.1dp"
+            android:layout_height="6.3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/pressed_l1" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_l2"
+            android:layout_width="19.6dp"
+            android:layout_height="10.5dp"
+            android:layout_marginLeft="39.9dp"
+            android:layout_marginTop="0.7dp"
+            android:src="@drawable/pressed_l2" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_l3"
+            android:layout_width="32.2dp"
+            android:layout_height="32.2dp"
+            android:layout_marginLeft="69.3dp"
+            android:layout_marginTop="66.5dp"
+            android:src="@drawable/pressed_circle" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_option"
+            android:layout_width="8.4dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="170.8dp"
+            android:layout_marginTop="18.2dp"
+            android:src="@drawable/pressed_option" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_ps"
+            android:layout_width="12.6dp"
+            android:layout_height="12.6dp"
+            android:layout_marginLeft="118.3dp"
+            android:layout_marginTop="77.7dp"
+            android:src="@drawable/pressed_circle" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_r1"
+            android:layout_width="30.1dp"
+            android:layout_height="6.3dp"
+            android:layout_marginLeft="184.1dp"
+            android:layout_marginTop="7dp"
+            android:scaleX="-1"
+            android:src="@drawable/pressed_l1" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_r2"
+            android:layout_width="19.6dp"
+            android:layout_height="10.5dp"
+            android:layout_marginLeft="189dp"
+            android:layout_marginTop="0.7dp"
+            android:scaleX="-1"
+            android:src="@drawable/pressed_l2" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_r3"
+            android:layout_width="32.2dp"
+            android:layout_height="32.2dp"
+            android:layout_marginLeft="148.4dp"
+            android:layout_marginTop="66.5dp"
+            android:src="@drawable/pressed_circle" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_share"
+            android:layout_width="8.4dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="70.7dp"
+            android:layout_marginTop="18.9dp"
+            android:src="@drawable/pressed_option" />
+
+        <ImageView
+            android:id="@+id/imageView_pressed_touch"
+            android:layout_width="82.6dp"
+            android:layout_height="44.8dp"
+            android:layout_marginLeft="83.3dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/pressed_touch" />
+
+        <ImageView
+            android:id="@+id/imageView_gamepad_base"
+            android:layout_width="249.2dp"
+            android:layout_height="161dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gamepad_base" />
+
+        <ImageView
+            android:id="@+id/imageView_moved_left_analog"
+            android:layout_width="5.6dp"
+            android:layout_height="5.6dp"
+            android:layout_marginLeft="82.6dp"
+            android:layout_marginTop="80.5dp"
+            android:src="@drawable/moved_analog" />
+
+        <ImageView
+            android:id="@+id/imageView_moved_right_analog"
+            android:layout_width="5.6dp"
+            android:layout_height="5.6dp"
+            android:layout_marginLeft="161.7dp"
+            android:layout_marginTop="80.5dp"
+            android:src="@drawable/moved_analog" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

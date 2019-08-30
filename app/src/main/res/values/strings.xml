@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote Play Assistant</string>
+    <string name="msg_overwrite">The file already exists. Do you want to overwrite it?</string>
+    <string name="msg_load_ok">Loaded successfully.</string>
+    <string name="msg_load_fail">Failed to load.</string>
+    <string name="msg_save_ok">Saved successfully.</string>
+    <string name="msg_save_fail">Failed to save.</string>
+    <string name="msg_new_profile">The settings will be reset. Do you want to continue?</string>
+    <string name="msg_change_english_input">Please switch to English input. If your keyboard app supports it, you can switch it by pressing Shift + Space.</string>
+    <string name="delete">Delete</string>
+    <string name="with_combine_button">With Combine Button</string>
+    <string name="axis_only">Axis Only</string>
+    <string name="settings_category_profile">Profile</string>
+    <string name="settings_label_profile_load">Load</string>
+    <string name="settings_key_profile_save">last_profile</string>
+    <string name="settings_label_profile_save">Save</string>
+    <string name="settings_label_profile_new">New</string>
+    <string name="settings_category_general">General</string>
+
+    <string-array name="settings_entries_title_orientation">
+        <item>Depend on Device</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+        <item>Reverse Landscape</item>
+        <item>Reverse Portrait</item>
+        <item>Sensor</item>
+        <item>Sensor Landscape</item>
+        <item>Sensor Portrait</item>
+    </string-array>
+    <string-array name="settings_entries_value_orientation">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>8</item>
+        <item>9</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="settings_default_orientation">-1</string>
+    <string name="settings_key_orientation">screen_orientation</string>
+    <string name="settings_label_orientation">Screen Orientation</string>
+    <string name="settings_category_mapping">Mapping</string>
+    <string name="settings_key_analog_l2">analog_l2</string>
+    <string name="settings_key_analog_r2">analog_r2</string>
+    <string name="settings_key_button_ps">button_ps</string>
+    <string name="settings_key_button_circle">button_circle</string>
+    <string name="settings_key_button_cross">button_cross</string>
+    <string name="settings_key_button_l1">button_l1</string>
+    <string name="settings_key_button_l3">button_l3</string>
+    <string name="settings_key_button_option">button_option</string>
+    <string name="settings_key_button_r1">button_r1</string>
+    <string name="settings_key_button_r3">button_r3</string>
+    <string name="settings_key_button_share">button_share</string>
+    <string name="settings_key_button_combine">button_combine</string>
+    <string name="settings_key_button_square">button_square</string>
+    <string name="settings_key_button_touchpad">button_touchpad</string>
+    <string name="settings_key_button_triangle">button_triangle</string>
+    <string name="settings_key_dpad_down">dpad_down</string>
+    <string name="settings_key_dpad_left">dpad_left</string>
+    <string name="settings_key_dpad_right">dpad_right</string>
+    <string name="settings_key_dpad_up">dpad_up</string>
+    <string name="settings_key_left_analog_down">left_analog_down</string>
+    <string name="settings_key_left_analog_left">left_analog_left</string>
+    <string name="settings_key_left_analog_right">left_analog_right</string>
+    <string name="settings_key_left_analog_up">left_analog_up</string>
+    <string name="settings_key_right_analog_down">right_analog_down</string>
+    <string name="settings_key_right_analog_left">right_analog_left</string>
+    <string name="settings_key_right_analog_right">right_analog_right</string>
+    <string name="settings_key_right_analog_up">right_analog_up</string>
+    <string name="settings_label_analog_l2">L2</string>
+    <string name="settings_label_analog_r2">R2</string>
+    <string name="settings_label_button_ps">PS</string>
+    <string name="settings_label_button_circle">Circle</string>
+    <string name="settings_label_button_cross">Cross</string>
+    <string name="settings_label_button_l1">L1</string>
+    <string name="settings_label_button_l3">L3</string>
+    <string name="settings_label_button_option">Option</string>
+    <string name="settings_label_button_r1">R1</string>
+    <string name="settings_label_button_r3">R3</string>
+    <string name="settings_label_button_share">Share</string>
+    <string name="settings_label_button_combine">For Combine Button</string>
+    <string name="settings_label_button_square">Square</string>
+    <string name="settings_label_button_touchpad">Touchpad Button</string>
+    <string name="settings_label_button_triangle">Triangle</string>
+    <string name="settings_label_dpad_down">DPad Down</string>
+    <string name="settings_label_dpad_left">DPad Left</string>
+    <string name="settings_label_dpad_right">DPad Right</string>
+    <string name="settings_label_dpad_up">DPad Up</string>
+    <string name="settings_label_left_analog_down">Left Analog Down</string>
+    <string name="settings_label_left_analog_left">Left Analog Left</string>
+    <string name="settings_label_left_analog_right">Left Analog Right</string>
+    <string name="settings_label_left_analog_up">Left Analog Up</string>
+    <string name="settings_label_right_analog_down">Right Analog Down</string>
+    <string name="settings_label_right_analog_left">Right Analog Left</string>
+    <string name="settings_label_right_analog_right">Right Analog Right</string>
+    <string name="settings_label_right_analog_up">Right Analog Up</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="settings_category_controller">Controller</string>
+    <string name="settings_label_controller_test">Controller Test</string>
+    <string name="settings_key_deadzone">deadzone</string>
+    <string name="settings_label_deadzone">Analog Stick Dead Zone(%)</string>
+
+    <string name="settings_key_switch_profile1">switch_profile1</string>
+    <string name="settings_label_switch_profile1">Switch Profile 1</string>
+    <string name="settings_key_switch_profile2">switch_profile2</string>
+    <string name="settings_label_switch_profile2">Switch Profile 2</string>
+
+</resources>

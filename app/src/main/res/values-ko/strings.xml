@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote Play Assistant</string>
+    <string name="msg_overwrite">파일이 존재합니다. 덮어씌우겠습니까?</string>
+    <string name="msg_load_ok">불러오기 성공</string>
+    <string name="msg_load_fail">불러오기 실패</string>
+    <string name="msg_save_ok">저장 성공</string>
+    <string name="msg_save_fail">저장 실패</string>
+    <string name="msg_new_profile">설정이 초기화됩니다. 계속하시겠습니까?</string>
+    <string name="msg_change_english_input">영문 입력 모드로 전환하여 주십시오. 키보드 앱이 지원하는 경우 Shift+Space 를 눌러서 전환할 수 있습니다.</string>
+    <string name="delete">삭제</string>
+    <string name="with_combine_button">조합 버튼 사용</string>
+    <string name="axis_only">축(Axis)만 인식</string>
+    <string name="settings_category_profile">프로파일</string>
+    <string name="settings_label_profile_load">불러오기</string>
+    <string name="settings_label_profile_save">저장</string>
+    <string name="settings_label_profile_new">새로 만들기</string>
+    <string name="settings_category_general">일반</string>
+
+    <string-array name="settings_entries_title_orientation">
+        <item>장치 설정 유지</item>
+        <item>가로</item>
+        <item>세로</item>
+        <item>역방향 가로</item>
+        <item>역방향 세로</item>
+        <item>센서</item>
+        <item>센서 가로</item>
+        <item>센서 세로</item>
+    </string-array>
+
+    <string name="settings_label_orientation">화면 방향</string>
+    <string name="settings_category_mapping">맵핑</string>
+    <string name="settings_label_analog_l2">L2</string>
+    <string name="settings_label_analog_r2">R2</string>
+    <string name="settings_label_button_ps">PS</string>
+    <string name="settings_label_button_circle">동그라미 버튼</string>
+    <string name="settings_label_button_cross">엑스 버튼</string>
+    <string name="settings_label_button_l1">L1</string>
+    <string name="settings_label_button_l3">L3</string>
+    <string name="settings_label_button_option">Option</string>
+    <string name="settings_label_button_r1">R1</string>
+    <string name="settings_label_button_r3">R3</string>
+    <string name="settings_label_button_share">Share</string>
+    <string name="settings_label_button_combine">조합 버튼</string>
+    <string name="settings_label_button_square">네모 버튼</string>
+    <string name="settings_label_button_touchpad">터치패드 버튼</string>
+    <string name="settings_label_button_triangle">세모 버튼</string>
+    <string name="settings_label_dpad_down">방향키 아래</string>
+    <string name="settings_label_dpad_left">방향키 왼쪽</string>
+    <string name="settings_label_dpad_right">방향키 오른쪽</string>
+    <string name="settings_label_dpad_up">방향키 위</string>
+    <string name="settings_label_left_analog_down">왼쪽 스틱 아래</string>
+    <string name="settings_label_left_analog_left">왼쪽 스틱 왼쪽</string>
+    <string name="settings_label_left_analog_right">왼쪽 스틱 오른쪽</string>
+    <string name="settings_label_left_analog_up">왼쪽 스틱 위</string>
+    <string name="settings_label_right_analog_down">오른쪽 스틱 아래</string>
+    <string name="settings_label_right_analog_left">오른쪽 스틱 왼쪽</string>
+    <string name="settings_label_right_analog_right">오른쪽 스틱 오른쪽</string>
+    <string name="settings_label_right_analog_up">오른쪽 스틱 위</string>
+    <string name="settings_category_controller">컨트롤러</string>
+    <string name="settings_label_controller_test">컨트롤러 테스트</string>
+    <string name="settings_label_deadzone">아날로그 스틱 데드존(%)</string>
+
+    <string name="settings_label_switch_profile1">프로파일 전환 1</string>
+    <string name="settings_label_switch_profile2">프로파일 전환 2</string>
+</resources>

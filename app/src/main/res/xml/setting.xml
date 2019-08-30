@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<PreferenceCategory android:title="@string/settings_category_profile" >
+        <ListPreference
+            android:title="@string/settings_label_profile_load" />
+        <EditTextPreference
+            android:key="@string/settings_key_profile_save"
+            android:title="@string/settings_label_profile_save" />
+        <Preference
+            android:title="@string/settings_label_profile_new" />
+    </PreferenceCategory>
+    
+	<PreferenceCategory android:title="@string/settings_category_general" >
+		<ListPreference
+            android:defaultValue="@string/settings_default_orientation"
+            android:entries="@array/settings_entries_title_orientation"
+            android:entryValues="@array/settings_entries_value_orientation"
+            android:key="@string/settings_key_orientation"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/settings_label_orientation" />
+	</PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_controller" >
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="@string/settings_key_deadzone"
+            android:title="@string/settings_label_deadzone" />
+        <Preference
+            android:title="@string/settings_label_controller_test" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_mapping" >
+	    
+        <Preference
+            android:key="@string/settings_key_button_combine"
+            android:title="@string/settings_label_button_combine" />
+
+        <Preference
+            android:key="@string/settings_key_switch_profile1"
+            android:title="@string/settings_label_switch_profile1" />
+
+        <Preference
+            android:key="@string/settings_key_switch_profile2"
+            android:title="@string/settings_label_switch_profile2" />
+
+        <Preference
+            android:key="@string/settings_key_button_ps"
+            android:title="@string/settings_label_button_ps" />
+        <Preference
+            android:key="@string/settings_key_button_option"
+            android:title="@string/settings_label_button_option" />
+        <Preference
+            android:key="@string/settings_key_button_share"
+            android:title="@string/settings_label_button_share" />
+        <Preference
+            android:key="@string/settings_key_button_touchpad"
+            android:title="@string/settings_label_button_touchpad" />
+        
+        <Preference
+            android:key="@string/settings_key_dpad_up"
+            android:title="@string/settings_label_dpad_up" />
+        <Preference
+            android:key="@string/settings_key_dpad_right"
+            android:title="@string/settings_label_dpad_right" />
+        <Preference
+            android:key="@string/settings_key_dpad_down"
+            android:title="@string/settings_label_dpad_down" />
+        <Preference
+            android:key="@string/settings_key_dpad_left"
+            android:title="@string/settings_label_dpad_left" />
+        
+        <Preference
+            android:key="@string/settings_key_left_analog_up"
+            android:title="@string/settings_label_left_analog_up" />
+        <Preference
+            android:key="@string/settings_key_left_analog_right"
+            android:title="@string/settings_label_left_analog_right" />
+        <Preference
+            android:key="@string/settings_key_left_analog_down"
+            android:title="@string/settings_label_left_analog_down" />
+        <Preference
+            android:key="@string/settings_key_left_analog_left"
+            android:title="@string/settings_label_left_analog_left" />
+        
+        <Preference
+            android:key="@string/settings_key_right_analog_up"
+            android:title="@string/settings_label_right_analog_up" />
+        <Preference
+            android:key="@string/settings_key_right_analog_right"
+            android:title="@string/settings_label_right_analog_right" />
+        <Preference
+            android:key="@string/settings_key_right_analog_down"
+            android:title="@string/settings_label_right_analog_down" />
+        <Preference
+            android:key="@string/settings_key_right_analog_left"
+            android:title="@string/settings_label_right_analog_left" />
+        
+        <Preference
+            android:key="@string/settings_key_button_circle"
+            android:title="@string/settings_label_button_circle" />
+        <Preference
+            android:key="@string/settings_key_button_cross"
+            android:title="@string/settings_label_button_cross" />
+        <Preference
+            android:key="@string/settings_key_button_triangle"
+            android:title="@string/settings_label_button_triangle" />
+        <Preference
+            android:key="@string/settings_key_button_square"
+            android:title="@string/settings_label_button_square" />
+        
+        <Preference
+            android:key="@string/settings_key_button_l1"
+            android:title="@string/settings_label_button_l1" />
+        <Preference
+            android:key="@string/settings_key_button_r1"
+            android:title="@string/settings_label_button_r1" />
+        
+        <Preference
+            android:key="@string/settings_key_analog_l2"
+            android:title="@string/settings_label_analog_l2" />
+        <Preference
+            android:key="@string/settings_key_analog_r2"
+            android:title="@string/settings_label_analog_r2" />
+        
+        <Preference
+            android:key="@string/settings_key_button_l3"
+            android:title="@string/settings_label_button_l3" />
+        <Preference
+            android:key="@string/settings_key_button_r3"
+            android:title="@string/settings_label_button_r3" />
+        
+	</PreferenceCategory>
+	
+</PreferenceScreen>
